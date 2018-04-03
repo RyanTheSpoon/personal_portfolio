@@ -1,3 +1,4 @@
+/* text element changes */
 p {
     font-family: sans-serif;
     text-align: center;
@@ -34,12 +35,20 @@ li {
     font-family: sans-serif;
     text-align: center;
 }
+/* IMG Rules */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* navagation */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: white;
     text-align: center;
 }
 
@@ -55,4 +64,22 @@ li a {
 li a:hover {
     background-color: #555;
     color: white;
+}
+/* link color */
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000080;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
 }
